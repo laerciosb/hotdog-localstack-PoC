@@ -1,6 +1,4 @@
 # hotdog-localstack-PoC
-https://www.linkedin.com/pulse/localstack-com-terraform-e-docker-para-executar-aws-edilson-freitas?trk=public_profile_article_view
-
 PoC for running AWS services(kinesis, dynamodb, lambdas) locally with Localstack
 
 ```
@@ -19,3 +17,9 @@ awslocal kinesis list-streams
 ```
 
 Note: Make sure you are matching your AWS REGION in docker-compose.yml, terraform provider's region and session.NewSession(). They all need to be the same region.
+
+## Links
+
+- https://www.linkedin.com/pulse/localstack-com-terraform-e-docker-para-executar-aws-edilson-freitas?trk=public_profile_article_view
+- https://wormholerelays.com/posts/localstack-with-terraform-and-docker-for-running-aws-locally/
+- https://docs.localstack.cloud/integrations/terraform/
