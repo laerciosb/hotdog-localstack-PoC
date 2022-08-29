@@ -1,4 +1,5 @@
 # hotdog-localstack-PoC
+https://www.linkedin.com/pulse/localstack-com-terraform-e-docker-para-executar-aws-edilson-freitas?trk=public_profile_article_view
 PoC for running AWS services(kinesis, dynamodb, lambdas) locally with Localstack
 
 ```
